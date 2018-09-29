@@ -238,7 +238,6 @@ nav a:hover {
       header #logo,
       header .container,
       header nav {
-        float: none;
         text-align: center;
         width: center;
         width: 100%;
@@ -251,4 +250,10 @@ nav a:hover {
       div .main-section {
           margin-top: 60px;
       }
+  }
+
+  @media screen and (max-width: 1000px) {
+    header nav {
+      padding-right: 25px;  
+    }
   }
